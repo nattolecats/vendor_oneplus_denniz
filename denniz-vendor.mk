@@ -49,10 +49,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/denniz/proprietary/system_ext/lib64/vendor.mediatek.hardware.apuware.utils@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.apuware.utils@1.0.so \
     vendor/oneplus/denniz/proprietary/system_ext/lib64/vendor.mediatek.hardware.apuware.xrp@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.apuware.xrp@1.0.so \
     vendor/oneplus/denniz/proprietary/system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
-    vendor/oneplus/denniz/proprietary/vendor/-odm/etc/vintf/manifest_dsds.xml:$(TARGET_COPY_OUT_VENDOR)/-odm/etc/vintf/manifest_dsds.xml \
-    vendor/oneplus/denniz/proprietary/vendor/-odm/etc/vintf/manifest_qsqs.xml:$(TARGET_COPY_OUT_VENDOR)/-odm/etc/vintf/manifest_qsqs.xml \
-    vendor/oneplus/denniz/proprietary/vendor/-odm/etc/vintf/manifest_ss.xml:$(TARGET_COPY_OUT_VENDOR)/-odm/etc/vintf/manifest_ss.xml \
-    vendor/oneplus/denniz/proprietary/vendor/-odm/etc/vintf/manifest_tsts.xml:$(TARGET_COPY_OUT_VENDOR)/-odm/etc/vintf/manifest_tsts.xml \
     vendor/oneplus/denniz/proprietary/vendor/bin/AgentTest:$(TARGET_COPY_OUT_VENDOR)/bin/AgentTest \
     vendor/oneplus/denniz/proprietary/vendor/bin/acpi:$(TARGET_COPY_OUT_VENDOR)/bin/acpi \
     vendor/oneplus/denniz/proprietary/vendor/bin/aee_aedv:$(TARGET_COPY_OUT_VENDOR)/bin/aee_aedv \
@@ -1054,7 +1050,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/denniz/proprietary/vendor/etc/special_pws_channel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/special_pws_channel.xml \
     vendor/oneplus/denniz/proprietary/vendor/etc/spk.wav:$(TARGET_COPY_OUT_VENDOR)/etc/spk.wav \
     vendor/oneplus/denniz/proprietary/vendor/etc/spn-conf-op09.xml:$(TARGET_COPY_OUT_VENDOR)/etc/spn-conf-op09.xml \
-    vendor/oneplus/denniz/proprietary/vendor/etc/task_profiles.json:$(TARGET_COPY_OUT_VENDOR)/etc/task_profiles.json \
     vendor/oneplus/denniz/proprietary/vendor/etc/test_path/common/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/test_path/common/mixer_paths.xml \
     vendor/oneplus/denniz/proprietary/vendor/etc/throttle.sh:$(TARGET_COPY_OUT_VENDOR)/etc/throttle.sh \
     vendor/oneplus/denniz/proprietary/vendor/etc/usb_audio_accessory_only_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_accessory_only_policy_configuration.xml \
@@ -2201,7 +2196,11 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/denniz/proprietary/vendor/lib64/vendor.trustonic.tee@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.tee@1.1.so \
     vendor/oneplus/denniz/proprietary/vendor/odm/etc/NOTICE.xml.gz:$(TARGET_COPY_OUT_ODM)/odm/etc/NOTICE.xml.gz \
     vendor/oneplus/denniz/proprietary/vendor/odm/etc/group:$(TARGET_COPY_OUT_ODM)/odm/etc/group \
-    vendor/oneplus/denniz/proprietary/vendor/odm/etc/passwd:$(TARGET_COPY_OUT_ODM)/odm/etc/passwd
+    vendor/oneplus/denniz/proprietary/vendor/odm/etc/passwd:$(TARGET_COPY_OUT_ODM)/odm/etc/passwd \
+    vendor/oneplus/denniz/proprietary/vendor/odm/etc/vintf/manifest_dsds.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest_dsds.xml \
+    vendor/oneplus/denniz/proprietary/vendor/odm/etc/vintf/manifest_qsqs.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest_qsqs.xml \
+    vendor/oneplus/denniz/proprietary/vendor/odm/etc/vintf/manifest_ss.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest_ss.xml \
+    vendor/oneplus/denniz/proprietary/vendor/odm/etc/vintf/manifest_tsts.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest_tsts.xml
 
 PRODUCT_PACKAGES += \
     mediatek-common \
