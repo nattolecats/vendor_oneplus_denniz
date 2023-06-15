@@ -5,6 +5,25 @@
 soong_namespace {
 }
 
+cc_prebuilt_library_shared {
+	name: "vendor.oplus.hardware.cammidasservice@1.0",
+	owner: "oneplus",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/lib/vendor.oplus.hardware.cammidasservice@1.0.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/lib64/vendor.oplus.hardware.cammidasservice@1.0.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+}
+
 dex_import {
 	name: "mediatek-common",
 	owner: "oneplus",
@@ -87,6 +106,32 @@ dex_import {
 	name: "mediatek-wfo-legacy",
 	owner: "oneplus",
 	jars: ["proprietary/framework/mediatek-wfo-legacy.jar"],
+}
+
+dex_import {
+	name: "oplus-framework",
+	owner: "oneplus",
+	jars: ["proprietary/framework/oplus-framework.jar"],
+}
+
+dex_import {
+	name: "oplus-support-wrapper",
+	owner: "oneplus",
+	jars: ["proprietary/framework/oplus-support-wrapper.jar"],
+}
+
+dex_import {
+	name: "com.oplus.camera.unit.sdk.adapter",
+	owner: "oneplus",
+	jars: ["proprietary/system_ext/framework/com.oplus.camera.unit.sdk.adapter.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "com.oplus.camera.unit.sdk",
+	owner: "oneplus",
+	jars: ["proprietary/system_ext/framework/com.oplus.camera.unit.sdk.jar"],
+	system_ext_specific: true,
 }
 
 prebuilt_etc_xml {
