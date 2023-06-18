@@ -31,21 +31,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/denniz/proprietary/lib64/libmtkperf_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtkperf_client.so \
     vendor/oneplus/denniz/proprietary/lib64/libvcodec_cap.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvcodec_cap.so \
     vendor/oneplus/denniz/proprietary/lib64/libvcodec_capenc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvcodec_capenc.so \
-    vendor/oneplus/denniz/proprietary/system_ext/lib64/libAPSClient-jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libAPSClient-jni.so \
-    vendor/oneplus/denniz/proprietary/system_ext/lib64/libAncFilter_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libAncFilter_jni.so \
-    vendor/oneplus/denniz/proprietary/system_ext/lib64/libAncHumBokeh-jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libAncHumBokeh-jni.so \
-    vendor/oneplus/denniz/proprietary/system_ext/lib64/libAncHumanDoubleExposure-jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libAncHumanDoubleExposure-jni.so \
-    vendor/oneplus/denniz/proprietary/system_ext/lib64/libAncHumanRetain-jni_v2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libAncHumanRetain-jni_v2.so \
-    vendor/oneplus/denniz/proprietary/system_ext/lib64/libAncHumanSegFigureFusion-jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libAncHumanSegFigureFusion-jni.so \
-    vendor/oneplus/denniz/proprietary/system_ext/lib64/libAncHumanVideo-jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libAncHumanVideo-jni.so \
-    vendor/oneplus/denniz/proprietary/system_ext/lib64/libApsFaceBeautyPreviewProductJni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libApsFaceBeautyPreviewProductJni.so \
-    vendor/oneplus/denniz/proprietary/system_ext/lib64/libOplusBlurPreviewJNI.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libOplusBlurPreviewJNI.so \
-    vendor/oneplus/denniz/proprietary/system_ext/lib64/libXDocProcessSDK-jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libXDocProcessSDK-jni.so \
-    vendor/oneplus/denniz/proprietary/system_ext/lib64/libXDocProcessSDK.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libXDocProcessSDK.so \
-    vendor/oneplus/denniz/proprietary/system_ext/lib64/libYTCommon.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libYTCommon.so \
-    vendor/oneplus/denniz/proprietary/system_ext/lib64/libjnistblur_api.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libjnistblur_api.so \
-    vendor/oneplus/denniz/proprietary/system_ext/lib64/libmpbase.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmpbase.so \
-    vendor/oneplus/denniz/proprietary/system_ext/lib64/libsingle_camera_bokeh_native.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsingle_camera_bokeh_native.so \
     vendor/oneplus/denniz/proprietary/system_ext/lib/libapuwareapusys.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libapuwareapusys.mtk.so \
     vendor/oneplus/denniz/proprietary/system_ext/lib/libapuwarehmp.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libapuwarehmp.mtk.so \
     vendor/oneplus/denniz/proprietary/system_ext/lib/libapuwareutils.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libapuwareutils.mtk.so \
@@ -176,7 +161,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/denniz/proprietary/vendor/bin/hw/power_native_test_v_1_1:$(TARGET_COPY_OUT_VENDOR)/bin/hw/power_native_test_v_1_1 \
     vendor/oneplus/denniz/proprietary/vendor/bin/hw/vendor.mediatek.hardware.aee@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.aee@1.0-service \
     vendor/oneplus/denniz/proprietary/vendor/bin/hw/vendor.mediatek.hardware.dplanner@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.dplanner@2.0-service \
-    vendor/oneplus/denniz/proprietary/vendor/bin/hw/vendor.mediatek.hardware.gpu@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.gpu@1.0-service \
     vendor/oneplus/denniz/proprietary/vendor/bin/hw/vendor.mediatek.hardware.keyinstall@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.keyinstall@1.0-service \
     vendor/oneplus/denniz/proprietary/vendor/bin/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-service \
     vendor/oneplus/denniz/proprietary/vendor/bin/hw/vendor.mediatek.hardware.mmagent@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.mmagent@1.0-service \
@@ -1144,11 +1128,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/denniz/proprietary/vendor/lib/VP9SecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib/VP9SecureVdecCA.so \
     vendor/oneplus/denniz/proprietary/vendor/lib/android.hardware.audio.common-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common-util.so \
     vendor/oneplus/denniz/proprietary/vendor/lib/android.hardware.audio.common@6.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common@6.0-util.so \
-    vendor/oneplus/denniz/proprietary/vendor/lib/arm.graphics-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/arm.graphics-V1-ndk_platform.so \
     vendor/oneplus/denniz/proprietary/vendor/lib/egl/egl.cfg:$(TARGET_COPY_OUT_VENDOR)/lib/egl/egl.cfg \
-    vendor/oneplus/denniz/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
-    vendor/oneplus/denniz/proprietary/vendor/lib/egl/libGLES_meow.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_meow.so \
-    vendor/oneplus/denniz/proprietary/vendor/lib/egl/libMEOW_trace.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libMEOW_trace.so \
     vendor/oneplus/denniz/proprietary/vendor/lib/gc02m1b_mipi_mono20817_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc02m1b_mipi_mono20817_IdxMgr.so \
     vendor/oneplus/denniz/proprietary/vendor/lib/gc02m1b_mipi_mono_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc02m1b_mipi_mono_IdxMgr.so \
     vendor/oneplus/denniz/proprietary/vendor/lib/hw/android.hardware.audio.effect@6.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio.effect@6.0-impl.so \
@@ -1156,8 +1136,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/denniz/proprietary/vendor/lib/hw/android.hardware.bluetooth.audio@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth.audio@2.0-impl.so \
     vendor/oneplus/denniz/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth@1.0-impl-mediatek.so \
     vendor/oneplus/denniz/proprietary/vendor/lib/hw/android.hardware.gatekeeper@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.gatekeeper@1.0-impl.so \
-    vendor/oneplus/denniz/proprietary/vendor/lib/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so \
-    vendor/oneplus/denniz/proprietary/vendor/lib/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so \
     vendor/oneplus/denniz/proprietary/vendor/lib/hw/android.hardware.health@2.0-impl-2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.health@2.0-impl-2.1.so \
     vendor/oneplus/denniz/proprietary/vendor/lib/hw/android.hardware.memtrack@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.memtrack@1.0-impl.so \
     vendor/oneplus/denniz/proprietary/vendor/lib/hw/android.hardware.soundtrigger@2.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.soundtrigger@2.3-impl.so \
@@ -1242,7 +1220,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/denniz/proprietary/vendor/lib/libMtkOmxVenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxVenc.so \
     vendor/oneplus/denniz/proprietary/vendor/lib/libMtkOmxWmaDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxWmaDec.so \
     vendor/oneplus/denniz/proprietary/vendor/lib/libMtkSpeechEnh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkSpeechEnh.so \
-    vendor/oneplus/denniz/proprietary/vendor/lib/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so \
     vendor/oneplus/denniz/proprietary/vendor/lib/libSensorSave.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSensorSave.so \
     vendor/oneplus/denniz/proprietary/vendor/lib/libSonyIMX230PdafLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX230PdafLibrary.so \
     vendor/oneplus/denniz/proprietary/vendor/lib/libSonyIMX230PdafLibraryWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX230PdafLibraryWrapper.so \
@@ -1359,7 +1336,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/denniz/proprietary/vendor/lib/libdip_drv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdip_drv.so \
     vendor/oneplus/denniz/proprietary/vendor/lib/libdip_imem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdip_imem.so \
     vendor/oneplus/denniz/proprietary/vendor/lib/libdip_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdip_postproc.so \
-    vendor/oneplus/denniz/proprietary/vendor/lib/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdpframework.so \
     vendor/oneplus/denniz/proprietary/vendor/lib/libdrm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrm.so \
     vendor/oneplus/denniz/proprietary/vendor/lib/libeffecthal.base.so:$(TARGET_COPY_OUT_VENDOR)/lib/libeffecthal.base.so \
     vendor/oneplus/denniz/proprietary/vendor/lib/libeffects.so:$(TARGET_COPY_OUT_VENDOR)/lib/libeffects.so \
@@ -1375,12 +1351,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/denniz/proprietary/vendor/lib/libfeatureiodrv_mem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfeatureiodrv_mem.so \
     vendor/oneplus/denniz/proprietary/vendor/lib/libfgauge_gm30.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfgauge_gm30.so \
     vendor/oneplus/denniz/proprietary/vendor/lib/libfile_op.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfile_op.so \
-    vendor/oneplus/denniz/proprietary/vendor/lib/libged.so:$(TARGET_COPY_OUT_VENDOR)/lib/libged.so \
-    vendor/oneplus/denniz/proprietary/vendor/lib/libgpu_aux.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgpu_aux.so \
-    vendor/oneplus/denniz/proprietary/vendor/lib/libgpud.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgpud.so \
-    vendor/oneplus/denniz/proprietary/vendor/lib/libgralloc_extra.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgralloc_extra.so \
-    vendor/oneplus/denniz/proprietary/vendor/lib/libgralloc_metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgralloc_metadata.so \
-    vendor/oneplus/denniz/proprietary/vendor/lib/libgralloctypes_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgralloctypes_mtk.so \
     vendor/oneplus/denniz/proprietary/vendor/lib/libgz_gp_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgz_gp_client.so \
     vendor/oneplus/denniz/proprietary/vendor/lib/libgz_uree.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgz_uree.so \
     vendor/oneplus/denniz/proprietary/vendor/lib/libh264dec_customize.so:$(TARGET_COPY_OUT_VENDOR)/lib/libh264dec_customize.so \
@@ -1388,7 +1358,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/denniz/proprietary/vendor/lib/libh264dec_sd.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libh264dec_sd.ca7.so \
     vendor/oneplus/denniz/proprietary/vendor/lib/libh264dec_se.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libh264dec_se.ca7.so \
     vendor/oneplus/denniz/proprietary/vendor/lib/libh264enc_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libh264enc_sa.ca7.so \
-    vendor/oneplus/denniz/proprietary/vendor/lib/libhdrvideo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdrvideo.so \
     vendor/oneplus/denniz/proprietary/vendor/lib/libhevce_sb.ca7.android.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhevce_sb.ca7.android.so \
     vendor/oneplus/denniz/proprietary/vendor/lib/libhfmanager.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhfmanager.so \
     vendor/oneplus/denniz/proprietary/vendor/lib/libhfmanagerwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhfmanagerwrapper.so \
@@ -1399,8 +1368,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/denniz/proprietary/vendor/lib/libimageio_plat_drv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimageio_plat_drv.so \
     vendor/oneplus/denniz/proprietary/vendor/lib/libimageio_plat_pipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimageio_plat_pipe.so \
     vendor/oneplus/denniz/proprietary/vendor/lib/libimgsensorca.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimgsensorca.so \
-    vendor/oneplus/denniz/proprietary/vendor/lib/libion_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libion_mtk.so \
-    vendor/oneplus/denniz/proprietary/vendor/lib/libion_ulit.so:$(TARGET_COPY_OUT_VENDOR)/lib/libion_ulit.so \
     vendor/oneplus/denniz/proprietary/vendor/lib/libipsec_ims_shr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libipsec_ims_shr.so \
     vendor/oneplus/denniz/proprietary/vendor/lib/libispcameraca.so:$(TARGET_COPY_OUT_VENDOR)/lib/libispcameraca.so \
     vendor/oneplus/denniz/proprietary/vendor/lib/libjpeg-alpha-oal_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpeg-alpha-oal_vendor.so \
@@ -1502,7 +1469,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/denniz/proprietary/vendor/lib/liboplusbtnvutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboplusbtnvutils.so \
     vendor/oneplus/denniz/proprietary/vendor/lib/libopus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libopus.so \
     vendor/oneplus/denniz/proprietary/vendor/lib/libperfctl_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfctl_vendor.so \
-    vendor/oneplus/denniz/proprietary/vendor/lib/libpixelflinger.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpixelflinger.so \
     vendor/oneplus/denniz/proprietary/vendor/lib/libpowerhal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpowerhal.so \
     vendor/oneplus/denniz/proprietary/vendor/lib/libpowerhalwrap_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpowerhalwrap_vendor.so \
     vendor/oneplus/denniz/proprietary/vendor/lib/libpq_cust_base.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpq_cust_base.so \
@@ -1514,7 +1480,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/denniz/proprietary/vendor/lib/libril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril.so \
     vendor/oneplus/denniz/proprietary/vendor/lib/librilutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/librilutils.so \
     vendor/oneplus/denniz/proprietary/vendor/lib/librpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/librpc.so \
-    vendor/oneplus/denniz/proprietary/vendor/lib/libscltm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscltm.so \
     vendor/oneplus/denniz/proprietary/vendor/lib/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorndkbridge.so \
     vendor/oneplus/denniz/proprietary/vendor/lib/libspeech_enh_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspeech_enh_lib.so \
     vendor/oneplus/denniz/proprietary/vendor/lib/libspeechparser_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspeechparser_vendor.so \
@@ -1617,7 +1582,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/denniz/proprietary/vendor/lib/vendor.mediatek.hardware.camera.camdump@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.camdump@1.0.so \
     vendor/oneplus/denniz/proprietary/vendor/lib/vendor.mediatek.hardware.camera.ccap@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.ccap@1.0.so \
     vendor/oneplus/denniz/proprietary/vendor/lib/vendor.mediatek.hardware.camera.isphal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.isphal@1.0.so \
-    vendor/oneplus/denniz/proprietary/vendor/lib/vendor.mediatek.hardware.gpu@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.gpu@1.0.so \
     vendor/oneplus/denniz/proprietary/vendor/lib/vendor.mediatek.hardware.keyinstall@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.keyinstall@1.0.so \
     vendor/oneplus/denniz/proprietary/vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.keymaster_attestation@1.0.so \
     vendor/oneplus/denniz/proprietary/vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.keymaster_attestation@1.1.so \
@@ -1663,10 +1627,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/denniz/proprietary/vendor/lib64/android.hardware.graphics.composer@2.1-resources.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.graphics.composer@2.1-resources.so \
     vendor/oneplus/denniz/proprietary/vendor/lib64/android.hardware.graphics.composer@2.2-resources.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.graphics.composer@2.2-resources.so \
     vendor/oneplus/denniz/proprietary/vendor/lib64/android.hardware.power-service-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.power-service-mediatek.so \
-    vendor/oneplus/denniz/proprietary/vendor/lib64/arm.graphics-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/arm.graphics-V1-ndk_platform.so \
-    vendor/oneplus/denniz/proprietary/vendor/lib64/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_mali.so \
-    vendor/oneplus/denniz/proprietary/vendor/lib64/egl/libGLES_meow.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_meow.so \
-    vendor/oneplus/denniz/proprietary/vendor/lib64/egl/libMEOW_trace.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libMEOW_trace.so \
     vendor/oneplus/denniz/proprietary/vendor/lib64/gc02m1b_mipi_mono20817_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc02m1b_mipi_mono20817_IdxMgr.so \
     vendor/oneplus/denniz/proprietary/vendor/lib64/gc02m1b_mipi_mono_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc02m1b_mipi_mono_IdxMgr.so \
     vendor/oneplus/denniz/proprietary/vendor/lib64/hw/android.hardware.audio.effect@6.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio.effect@6.0-impl.so \
@@ -1676,8 +1636,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/denniz/proprietary/vendor/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.so \
     vendor/oneplus/denniz/proprietary/vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gatekeeper@1.0-impl.so \
     vendor/oneplus/denniz/proprietary/vendor/lib64/hw/android.hardware.gnss@2.1-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@2.1-impl-mediatek.so \
-    vendor/oneplus/denniz/proprietary/vendor/lib64/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so \
-    vendor/oneplus/denniz/proprietary/vendor/lib64/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so \
     vendor/oneplus/denniz/proprietary/vendor/lib64/hw/android.hardware.health@2.0-impl-2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.health@2.0-impl-2.1.so \
     vendor/oneplus/denniz/proprietary/vendor/lib64/hw/android.hardware.memtrack@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.memtrack@1.0-impl.so \
     vendor/oneplus/denniz/proprietary/vendor/lib64/hw/android.hardware.soundtrigger@2.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.soundtrigger@2.3-impl.so \
@@ -1696,7 +1654,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/denniz/proprietary/vendor/lib64/hw/gatekeeper.oplus6893.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.oplus6893.so \
     vendor/oneplus/denniz/proprietary/vendor/lib64/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gps.default.so \
     vendor/oneplus/denniz/proprietary/vendor/lib64/hw/gralloc.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.default.so \
-    vendor/oneplus/denniz/proprietary/vendor/lib64/hw/hwcomposer.mt6893.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.mt6893.so \
     vendor/oneplus/denniz/proprietary/vendor/lib64/hw/kmsetkey.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/kmsetkey.default.so \
     vendor/oneplus/denniz/proprietary/vendor/lib64/hw/kmsetkey.trustonic.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/kmsetkey.trustonic.so \
     vendor/oneplus/denniz/proprietary/vendor/lib64/hw/libMcGatekeeper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/libMcGatekeeper.so \
@@ -1758,7 +1715,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/denniz/proprietary/vendor/lib64/libMcTeeSoter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMcTeeSoter.so \
     vendor/oneplus/denniz/proprietary/vendor/lib64/libMtkOmxCore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMtkOmxCore.so \
     vendor/oneplus/denniz/proprietary/vendor/lib64/libMtkSpeechEnh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMtkSpeechEnh.so \
-    vendor/oneplus/denniz/proprietary/vendor/lib64/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCL.so \
     vendor/oneplus/denniz/proprietary/vendor/lib64/libSensorSave.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSensorSave.so \
     vendor/oneplus/denniz/proprietary/vendor/lib64/libSonyIMX230PdafLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSonyIMX230PdafLibrary.so \
     vendor/oneplus/denniz/proprietary/vendor/lib64/libSonyIMX230PdafLibraryWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSonyIMX230PdafLibraryWrapper.so \
@@ -1887,7 +1843,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/denniz/proprietary/vendor/lib64/libdip_drv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdip_drv.so \
     vendor/oneplus/denniz/proprietary/vendor/lib64/libdip_imem.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdip_imem.so \
     vendor/oneplus/denniz/proprietary/vendor/lib64/libdip_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdip_postproc.so \
-    vendor/oneplus/denniz/proprietary/vendor/lib64/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdpframework.so \
     vendor/oneplus/denniz/proprietary/vendor/lib64/libdrm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdrm.so \
     vendor/oneplus/denniz/proprietary/vendor/lib64/libeffecthal.base.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libeffecthal.base.so \
     vendor/oneplus/denniz/proprietary/vendor/lib64/libeffects.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libeffects.so \
@@ -1904,16 +1859,9 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/denniz/proprietary/vendor/lib64/libfft_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfft_vendor.so \
     vendor/oneplus/denniz/proprietary/vendor/lib64/libfile_op.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfile_op.so \
     vendor/oneplus/denniz/proprietary/vendor/lib64/libforkexecwrap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libforkexecwrap.so \
-    vendor/oneplus/denniz/proprietary/vendor/lib64/libged.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libged.so \
-    vendor/oneplus/denniz/proprietary/vendor/lib64/libgpu_aux.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgpu_aux.so \
-    vendor/oneplus/denniz/proprietary/vendor/lib64/libgpud.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgpud.so \
-    vendor/oneplus/denniz/proprietary/vendor/lib64/libgralloc_extra.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgralloc_extra.so \
-    vendor/oneplus/denniz/proprietary/vendor/lib64/libgralloc_metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgralloc_metadata.so \
-    vendor/oneplus/denniz/proprietary/vendor/lib64/libgralloctypes_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgralloctypes_mtk.so \
     vendor/oneplus/denniz/proprietary/vendor/lib64/libgwsdv2-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgwsdv2-ril.so \
     vendor/oneplus/denniz/proprietary/vendor/lib64/libgz_gp_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgz_gp_client.so \
     vendor/oneplus/denniz/proprietary/vendor/lib64/libgz_uree.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgz_uree.so \
-    vendor/oneplus/denniz/proprietary/vendor/lib64/libhdrvideo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdrvideo.so \
     vendor/oneplus/denniz/proprietary/vendor/lib64/libhevce_sb.ca7.android.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhevce_sb.ca7.android.so \
     vendor/oneplus/denniz/proprietary/vendor/lib64/libhfmanager.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhfmanager.so \
     vendor/oneplus/denniz/proprietary/vendor/lib64/libhfmanagerwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhfmanagerwrapper.so \
@@ -1929,8 +1877,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/denniz/proprietary/vendor/lib64/libimageio_plat_drv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimageio_plat_drv.so \
     vendor/oneplus/denniz/proprietary/vendor/lib64/libimageio_plat_pipe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimageio_plat_pipe.so \
     vendor/oneplus/denniz/proprietary/vendor/lib64/libimgsensorca.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimgsensorca.so \
-    vendor/oneplus/denniz/proprietary/vendor/lib64/libion_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libion_mtk.so \
-    vendor/oneplus/denniz/proprietary/vendor/lib64/libion_ulit.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libion_ulit.so \
     vendor/oneplus/denniz/proprietary/vendor/lib64/libipsec_ims_shr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libipsec_ims_shr.so \
     vendor/oneplus/denniz/proprietary/vendor/lib64/libispcameraca.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libispcameraca.so \
     vendor/oneplus/denniz/proprietary/vendor/lib64/libjpeg-alpha-oal_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjpeg-alpha-oal_vendor.so \
@@ -2069,7 +2015,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/denniz/proprietary/vendor/lib64/liboplus_mtkcam_configutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboplus_mtkcam_configutils.so \
     vendor/oneplus/denniz/proprietary/vendor/lib64/liboplusbtnvutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboplusbtnvutils.so \
     vendor/oneplus/denniz/proprietary/vendor/lib64/libperfctl_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperfctl_vendor.so \
-    vendor/oneplus/denniz/proprietary/vendor/lib64/libpixelflinger.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpixelflinger.so \
     vendor/oneplus/denniz/proprietary/vendor/lib64/libpowerhal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpowerhal.so \
     vendor/oneplus/denniz/proprietary/vendor/lib64/libpowerhalwrap_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpowerhalwrap_vendor.so \
     vendor/oneplus/denniz/proprietary/vendor/lib64/libpq_cust_base.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpq_cust_base.so \
@@ -2083,7 +2028,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/denniz/proprietary/vendor/lib64/libril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril.so \
     vendor/oneplus/denniz/proprietary/vendor/lib64/librilfusion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librilfusion.so \
     vendor/oneplus/denniz/proprietary/vendor/lib64/librilutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librilutils.so \
-    vendor/oneplus/denniz/proprietary/vendor/lib64/libscltm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscltm.so \
     vendor/oneplus/denniz/proprietary/vendor/lib64/libsensor_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor_custom.so \
     vendor/oneplus/denniz/proprietary/vendor/lib64/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorndkbridge.so \
     vendor/oneplus/denniz/proprietary/vendor/lib64/libsoft_attestation_cert.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsoft_attestation_cert.so \
@@ -2156,7 +2100,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/denniz/proprietary/vendor/lib64/vendor.mediatek.hardware.engineermode@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.engineermode@1.1.so \
     vendor/oneplus/denniz/proprietary/vendor/lib64/vendor.mediatek.hardware.engineermode@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.engineermode@1.2.so \
     vendor/oneplus/denniz/proprietary/vendor/lib64/vendor.mediatek.hardware.engineermode@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.engineermode@1.3.so \
-    vendor/oneplus/denniz/proprietary/vendor/lib64/vendor.mediatek.hardware.gpu@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.gpu@1.0.so \
     vendor/oneplus/denniz/proprietary/vendor/lib64/vendor.mediatek.hardware.keyinstall@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.keyinstall@1.0.so \
     vendor/oneplus/denniz/proprietary/vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.keymaster_attestation@1.0.so \
     vendor/oneplus/denniz/proprietary/vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.keymaster_attestation@1.1.so \
@@ -2215,7 +2158,27 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/denniz/proprietary/vendor/odm/etc/vintf/manifest_tsts.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest_tsts.xml
 
 PRODUCT_PACKAGES += \
-    vendor.oplus.hardware.cammidasservice@1.0 \
+    arm.graphics-V1-ndk_platform \
+    libGLES_mali \
+    libGLES_meow \
+    libMEOW_trace \
+    android.hardware.graphics.allocator@4.0-impl-mediatek \
+    android.hardware.graphics.mapper@4.0-impl-mediatek \
+    libOpenCL \
+    libdpframework \
+    libged \
+    libgpu_aux \
+    libgpud \
+    libgralloc_extra \
+    libgralloc_metadata \
+    libgralloctypes_mtk \
+    libhdrvideo \
+    libion_mtk \
+    libion_ulit \
+    libpixelflinger \
+    libscltm \
+    vendor.mediatek.hardware.gpu@1.0 \
+    hwcomposer.mt6893 \
     mediatek-common \
     mediatek-framework-net \
     mediatek-framework \
@@ -2230,10 +2193,6 @@ PRODUCT_PACKAGES += \
     mediatek-telephony-base \
     mediatek-telephony-common \
     mediatek-wfo-legacy \
-    oplus-framework \
-    oplus-support-wrapper \
-    com.oplus.camera.unit.sdk.adapter \
-    com.oplus.camera.unit.sdk \
     compatibility_matrix \
     android.hardware.cas@1.2-service \
     android.hardware.gpu@1.0-service \
@@ -2250,4 +2209,5 @@ PRODUCT_PACKAGES += \
     oplus_radio_device_manifest \
     oplus_wifi_supplicant_device \
     power-default \
-    vendor.mediatek.hardware.dplanner@2.0-service
+    vendor.mediatek.hardware.dplanner@2.0-service \
+    vendor.mediatek.hardware.gpu@1.0-service
